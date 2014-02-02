@@ -1,0 +1,23 @@
+-java Binaries/_post/java
+-main Post
+
+-cp Sources
+
+-lib elebeta-format
+
+-cmd cp Binaries/_post/java/java.jar Binaries/_post/java/post.jar
+-cmd cp Binaries/_post/java/java.jar Binaries/_post/java/post
+-cmd chmod +x Binaries/_post/java/post
+
+
+--next
+
+
+-neko Binaries/_post/neko/post.n
+-main Post
+
+-cp Sources
+
+-lib elebeta-format
+
+-cmd nekotools boot Binaries/_post/neko/post.n
